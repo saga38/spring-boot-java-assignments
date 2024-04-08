@@ -23,6 +23,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'io.swagger.core.v3:swagger-annotations:2.2.2'
 	implementation 'io.swagger.core.v3:swagger-models:2.2.2'
+	implementation "io.springfox:springfox-boot-starter:3.0.0"
 }
 
 tasks.named('test') {
